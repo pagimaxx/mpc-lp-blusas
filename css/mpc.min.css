@@ -1,0 +1,202 @@
+/* **
+ * Theme by PAGIMAX to Blogs
+ * Author: Diego Oliveira (diego@pagimaxx.com)
+ * Date: 25/04/2017
+ */
+
+body { font-family:Montserrat, 'sans-serif'; font-size: 16px; }
+hr.small {max-width:100px;margin:30px auto;border-width:4px;border-color:#666;}
+hr.espaco {max-width:100px;margin:60px auto;border-width:4px;border-color:#000}
+
+.topo a { text-decoration: none; color: #5185A1; font-weight: 500; }
+.topo a:hover { color:#FFF; background: #5185A1; }
+h3 { font-family:Montserrat, 'sans-serif'; font-size: 36px; font-weight:700; color:#333; text-align: center; }
+p { font-family:Montserrat, 'sans-serif'; margin: 25px 0;  }
+
+.navbar-brand { padding-top: 20px; }
+.nav { padding-top: 10px; }
+.nav li a { color: #5185A1; text-decoration: none; font-family:Montserrat, 'sans-serif'; font-size:20px; font-weight: 800; }
+.nav li a:hover { color: #006AB0; }
+.nav .cadastrese { margin: 3px 0 0 0; border: 2px solid #CCC; padding: 10px 20px; }
+.menu a { color:#006699; }
+
+.cabecalho { background: #FFF url(../img/bg-cabecalho.jpg) no-repeat center top; color: #FFF; padding: 100px 0;   }
+.cabecalho h1 { font-family:Montserrat, 'sans-serif'; text-shadow: 2px 2px 2px rgba(100, 100, 100, 1); font-size:50px; text-align: center; color:#FFF; margin:60px 0; }
+.cabecalho h2 { font-family:Montserrat, 'sans-serif'; text-shadow: 2px 2px 2px rgba(100, 100, 100, 1); font-size:30px; text-align: center; color:#FFF; margin:60px 0; }
+
+.textoinicial { font-family:Montserrat, 'sans-serif'; font-size: 16px; line-height: 30px; margin: 40px 0 0 0; }
+
+.h3_30px { font-family:Montserrat, 'sans-serif'; font-size: 36px; font-weight:700; color:#333; }
+
+.artigos { margin: 30px 0 50px 0; }
+.artigos img { margin-top: -4px;  }
+.espacoArtigo { margin:30px 0; }
+.aContinuarLendo a { padding:10px 20px; font-size:20px; color:#000; border:3px solid #000; }
+.aContinuarLendo a:hover { color:#666; }
+
+.video { margin: 70px 0 0 0; padding: 40px 0; text-align: center; background: #5185A1 url("https://www.transparenttextures.com/patterns/asfalt-light.png"); }
+.video img { max-width: 90%; }
+
+.btnpersonalizado { padding: 15px 0; font-size: 22px; background: #FF9933; color: #FFF; width: 100%; text-align: center; border:none; border-radius: 5px; }
+.btnpersonalizado:hover { background: #FF0066; }
+
+.btnVerde { padding: 15px 0; font-size: 22px; background: #7EBB00; color: #FFF; width: 100%; text-align: center; border:none; border-radius: 5px; }
+.btnVerde:hover { background: #669900; }
+
+.vantagens { padding: 50px 0; text-align: center; color: #5185A1; text-align: center; }
+.vantagens h1 { font-family:Montserrat, 'sans-serif'; font-size:38px; font-weight: bold; margin-bottom: 30px;  }
+
+.formulario { background: #5185A1 url(../img/form-bg.jpg) no-repeat center top; color: #5185A1; padding: 40px 0; }
+.formulario h2 { font-family:Montserrat, 'sans-serif'; font-size:38px; font-weight: bold; margin-bottom: 30px; text-align: center;  }
+.bgTexto { background: url(../img/bg-texto.png) repeat; color:#000; text-align: justify; padding: 20px; border-radius: 5px;  }
+.bgTexto a { color:#000; text-decoration: none; }
+.bgTexto a:hover { color: #006699; }
+.resultadoCalculo { border: 5px dashed #FF0066; padding: 15px; }
+
+.quemsomos { color: #FFF; padding: 40px 0; text-align: justify; font-family:Montserrat, 'sans-serif'; 
+background-color: #5185A1;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+.quemsomos h2 { font-family:Montserrat, 'sans-serif'; font-size:38px; font-weight: bold; margin-bottom: 30px; text-align: center;  }
+
+
+/* Galeria  */
+.modal-dialog { width:700px; }
+.thumbnail { margin-bottom:6px; }
+
+.modal-dialog .w800 { width:800px; }
+
+.oquefazemos { background: #FFF; color: #5185A1; padding: 40px 0; text-align: justify; }
+.oquefazemos h2 { font-family:Montserrat, 'sans-serif'; font-size:38px; font-weight: bold; margin-bottom: 30px; text-align: center;  }
+
+.btnpersonalizado { padding: 15px 0; font-size: 22px; background: #FF9933; color: #FFF; width: 100%; text-align: center; border:none; border-radius: 5px; }
+
+footer { padding: 30px 0px; font-family:Montserrat, 'sans-serif'; font-size:18px; color: #333; }
+footer a,a:hover { text-decoration: none; color: #333; font-weight: 500; }
+footer h2 {font-family:Montserrat, 'sans-serif'; font-size:38px; font-weight: bold;}
+footer .redesocial { padding: 0 10px; }
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+/*animation element*/
+
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+/*animation element sliding left*/
+
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+/*animation slide left styled for testimonials*/
+
+.animation-element.slide-left.testimonial {
+  float: left;
+  width: 47%;
+  margin: 0% 1.5% 3% 1.5%;
+  background: #F5F5F5;
+  padding: 15px;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  border: solid 1px #EAEAEA;
+}
+.animation-element.slide-left.testimonial:hover,
+.animation-element.slide-left.testimonial:active{
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(odd) {
+  width: 48.5%;
+  margin: 0% 1.5% 3.0% 0%;
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(even) {
+  width: 48.5%;
+  margin: 0% 0% 3.0% 1.5%;
+}
+
+.animation-element.slide-left.testimonial .header{
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.animation-element.slide-left.testimonial .left{
+  float: left;
+  margin-right: 15px;
+}
+.animation-element.slide-left.testimonial .right{
+  float: left;
+}
+
+.animation-element.slide-left.testimonial img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.5);
+}
+
+.animation-element.slide-left.testimonial h3 {
+  margin: 0px 0px 5px 0px;
+}
+
+.animation-element.slide-left.testimonial h4 {
+  margin: 0px 0px 5px 0px;
+}
+
+.animation-element.slide-left.testimonial .content {
+  float: left;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.animation-element.slide-left.testimonial .rating{}
+
+.animation-element.slide-left.testimonial i {
+  color: #aaa;
+  margin-right: 5px;
+}
+
+
+
+/*media queries for small devices*/
+@media screen and (max-width: 678px){
+  /*testimonials*/
+  .animation-element.slide-left.testimonial,
+  .animation-element.slide-left.testimonial:nth-of-type(odd),
+  .animation-element.slide-left.testimonial:nth-of-type(even){
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+  .animation-element.slide-left.testimonial .right,
+  .animation-element.slide-left.testimonial .left,
+  .animation-element.slide-left.testimonial .content,
+  .animation-element.slide-left.testimonial .rating{
+    text-align: center;
+    float: none;
+  }
+  .animation-element.slide-left.testimonial img{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 5px;
+  }
+
+  .modal-dialog { max-width:90%; }
+  
+}
