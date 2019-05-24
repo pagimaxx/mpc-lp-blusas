@@ -447,7 +447,13 @@ $cSite = new Site();
 					</p>
 				</div>
 				<div class="col-md-6 text-center">
-					<p>Por WhatsApp <b>11 99130-6333</b> &nbsp; <img src="img/whatsapp.png" alt="WhatsApp"></p>
+					<p>Por WhatsApp 
+						
+						<a href="tel:11991306333"><b>11 99130-6333</b></a> &nbsp; 
+					
+						<a href=""><img src="img/whatsapp.png" alt="WhatsApp"></a>
+				
+					</p>
 				</div>
 				<div class="col-md-12 text-center">
 					<hr class="small">
